@@ -43,6 +43,20 @@ PRODUCT_PACKAGES += \
 ### BLUETOOTH
 PRODUCT_PACKAGES += \
     libbt-vendor
+    
+### GPS/Locastion
+PRODUCT_PACKAGES += \
+    libbatching \
+    libgeofencing \
+    libgnss \
+    libgnsspps \
+    libsynergy_loc_api \
+    libloc_api_v02 \
+    libloc_ds_api \
+    libloc_core \
+    libgps.utils \
+    liblocation_api \
+    libloc_pla \
 
 # IMS
 PRODUCT_PACKAGES += \
