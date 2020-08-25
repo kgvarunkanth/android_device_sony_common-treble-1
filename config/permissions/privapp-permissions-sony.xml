@@ -12,12 +12,24 @@
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 
+
     <privapp-permissions package="com.sonyericsson.android.camera3d">
         <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.sonyericsson.customizedsettings">
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.sonyericsson.album">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="com.sonyericsson.permission.CREDENTIALMANAGER"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.sonyericsson.music">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.sonymobile.android.addoncamera.soundphoto">
@@ -34,6 +46,13 @@
 
     <privapp-permissions package="com.sonymobile.moviecreator">
         <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+    
+    <privapp-permissions package="com.sonymobile.email">
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
     </privapp-permissions>
 
 </permissions>
